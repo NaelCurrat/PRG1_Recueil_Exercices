@@ -9,10 +9,10 @@ Déterminer "à la main" ce que poduit ce code.
 
 using namespace std;
 
-double k(double x) { return 2 * (x + 1);        }
-double h(double x) { return x * x + k(x) - 1;   }
-double g(double x) { return 4 * h(x);           }
-double f(double x) { return g(x) + sqrt(h(x));  }
+double k(double x) { return 2 * (x + 1);        } 
+double h(double x) { return x * x + k(x) - 1;   } 
+double g(double x) { return 4 * h(x);           } 
+double f(double x) { return g(x) + sqrt(h(x));  } 
 
 int main() {
     double x1 = f(2),
@@ -30,6 +30,11 @@ int main() {
    return EXIT_SUCCESS;
 }
 ~~~
+x1 = 39
+x2 = 400
+x3 = 92
+x4 = 62
+x5 = 0
 
 <details>
 <summary>Solution</summary>

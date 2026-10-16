@@ -8,6 +8,35 @@ Pour ce faire, écrire une **fonction booléenne** *estBissextile* (donc, ne pas
 - elle est divisible par 400 ...
 - ou alors par 4 mais pas par 100.
 
+~~~cpp
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+
+bool estBissextile(double annee){
+    return false;
+    if (annee % 400){
+        return true;
+        }
+    }
+void afficherAnnee(bool estBissextile){
+    if (estBissextile){
+        cout << "L'année " << annee << " est bissextile."<<endl;
+        
+        }else{
+            cout << "L'année " << annee << " n'est pas bissextile."<<endl;
+            }
+    }
+
+int main(){
+    afficherAnnee(estBissextile(1900));
+    afficherAnnee(estBissextile(2000));
+    afficherAnnee(estBissextile(2010));
+    afficherAnnee(estBissextile(2020));
+    }
+
+~~~
 <details>
 <summary>Solution</summary>
 

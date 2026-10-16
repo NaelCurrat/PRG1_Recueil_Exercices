@@ -9,7 +9,6 @@ if (prixActuel > 100) {
    nouveauPrix = prixActuel - 10;
 }
 ~~~
-
 ~~~cpp 
 if (prixActuel < 100) {
    nouveauPrix = prixActuel - 10;
@@ -17,7 +16,7 @@ if (prixActuel < 100) {
    nouveauPrix = prixActuel - 20;
 }
 ~~~
-
+Non si le prix == 100 cela différe.
 <details>
 <summary>Solution</summary>
 Non, si prixActuel == 100, la valeur de nouveauPrix diffère. 

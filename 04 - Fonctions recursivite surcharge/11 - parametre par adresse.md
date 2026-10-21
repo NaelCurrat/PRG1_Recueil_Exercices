@@ -34,13 +34,13 @@ int main() {
 
 | Element          | Affichage |
 |---               |---        |
-| entier           |           |
-| adr entier       |           |
-| param            |           |
-| adr param        |           |
-| valeur pointee   |           |
-| entier           |           |
-| adr entier       |           |
+| entier           |   17        |
+| adr entier       | 0x16eea3698 |
+| param            |    0x16eea3698       |
+| adr param        |      0x16eea3498     |
+| valeur pointee   |      18     |
+| entier           |    18       |
+| adr entier       |     0x16eea3698      |
 
 
 <details>

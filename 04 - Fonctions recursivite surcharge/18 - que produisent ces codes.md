@@ -13,7 +13,7 @@ void f1(int n) {
 
 f1(2);
 ~~~
-
+A2 , A1, A0
 <details>
 <summary>Solution</summary>
 
@@ -35,7 +35,7 @@ void f2(int n) {
 
 f2(2);
 ~~~
-
+A0, A1, A2
 <details>
 <summary>Solution</summary>
 
@@ -58,7 +58,7 @@ void f3(int n) {
 
 f3(2);
 ~~~
-
+A2, A1, A0 ,B1, B2
 <details>
 <summary>Solution</summary>
 
@@ -81,7 +81,7 @@ void f4(int n) {
 
 f4(4);
 ~~~
-
+4, 3, 2, 1, 1, 1, 2, 1, 1 
 <details>
 <summary>Solution</summary>
 

@@ -11,6 +11,19 @@ $$F_n = F_{n-1} + F_{n-2} \text{ avec } F_0 = 0 \text{ et }  F_1 = 1$$
 Ecrire une fonction récursive *fibo* qui retourne la valeur de `Fn` pour `n` reçu en paramètre (sans regarder l'exemple donné en cours ;-)).
 
 
+
+~~~cpp
+int fibo(int n{
+    if (n < 2){
+        return n;
+        }
+    return fibo(n - 1) + fibo(n - 2);
+            }
+~~~
+
+
+
+
 [Wikipedia - Fibonacci](https://en.wikipedia.org/wiki/Fibonacci_sequence)
 
 <details>

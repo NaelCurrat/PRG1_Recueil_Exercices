@@ -9,7 +9,7 @@ using namespace std;
 
 void f(int n) {
    n *= n + 1;
-   cout << "B : n = " << n << endl;
+   cout << "B : n = " << n << endl; 
 }
 
 int main() { 

@@ -28,6 +28,13 @@ votre saisie [0..10] : 9
 votre saisie : 9
 ~~~
 
+
+
+
+
+
+
+
 <details>
 <summary>Solution</summary>
 

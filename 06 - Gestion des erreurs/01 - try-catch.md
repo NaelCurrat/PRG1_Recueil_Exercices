@@ -44,8 +44,11 @@ int main() {
    
    return EXIT_SUCCESS;
 }
+
+
 ~~~
 <details>
+Le throw du double 2.o n'est pas catch car il est déclarer dans un catch lui meme. Et non dans un bloc try. 
 <summary>Solution</summary>
 
 Dans catch (int) : valeur recue = 1<br>
@@ -75,8 +78,11 @@ int main() {
    
    return EXIT_SUCCESS;
 }
+
+
 ~~~
 <details>
+Le throw est déclarer à l'intérieur du try le + imbriqué, mais également dans le try le - imbriqués. Le deuxième throw (double) est donc aussi catch.
 <summary>Solution</summary>
 
 Dans catch (int) : valeur recue = 1<br>
@@ -118,6 +124,7 @@ int main() {
 }
 ~~~
 <details>
+f() throw un char qui est catch par catch(...). Le throw; n'est jamais executer car on ne rentre jamais dans son catch. Et donc le throw 65; est catch par le premier qui lui correspond donc catch(int&)
 <summary>Solution</summary>
 
 Dans catch (...) 1<br>
@@ -156,6 +163,7 @@ int main() {
 Consultez la documentation de [`std::out_of_range`](https://en.cppreference.com/w/cpp/error/out_of_range)
 
 <details>
+le throw oops; est catch par catch(exception). Ensuite, le throw; relance l'objet original donc throw oops; (pour le try externe) qui est catch par catch (logic_error&).
 <summary>Solution</summary>
 E1 : std::exception<br>
 L : oops<br>
